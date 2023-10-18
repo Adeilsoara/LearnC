@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-/* int main (){
+int main (){
     float proposta_salarial, tempo;
     float piso_salarial = 1800;
     printf("Informe o tempo (anos): ");
@@ -10,7 +10,7 @@
     proposta_salarial = piso_salarial * pow((1.03), tempo);
     printf("O salário após %.2f anos ficará R$ %.2f", tempo, proposta_salarial);
     return 0;
-} */
+}
 
 float proposta_salarial(float tempo);
 
@@ -27,3 +27,6 @@ float proposta_salarial (float tempo){
     float piso_salarial = 1800;
     return piso_salarial * pow((1.03), tempo);
 }
+
+
+
